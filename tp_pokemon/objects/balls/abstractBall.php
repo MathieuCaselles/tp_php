@@ -54,7 +54,7 @@
                 }
                 else
                 {
-                    echo 'gesgsSuper ! ' . $Pokemon->getName() . ' a été capturé ! <br>';
+                    echo 'Super ! ' . $Pokemon->getName() . ' a été capturé ! <br>';
                     $Pokemon->capture(true);
                     $this->__destruct();
                 }
